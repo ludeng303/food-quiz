@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Metrophobic', sans-serif;
+    background-color: 	#800000;
+}
+main{
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+fieldset{
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    border: 0;
+}
+button {
+    cursor: pointer;
+    display: block;
+    margin:auto;
+    font-size: 45px;
+    background-color: red;
+    color: yellow;
+    padding: 5px;
+    margin-top: 25px;
+}
+label{
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    text-align: left;
+    color: 	#800000;
+    background-color: white;
+    font-size: 30px;
+    display: block;
+}
+img {
+    border-radius: 4px;
+    padding: 5px;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h1, h2, h3, p, footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+h1{
+    font-size: 40px;
+    padding: 14px;
+}
+p{
+    font-size: 32px;
+}
+legend{
+    padding: 30px 0;
+}
+.container {
+    height: 310px;
+}
+.cs-no-margin{
+    margin: 0;
+}
+#js-footer-score {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#btn-start{
+    margin: auto, auto;
+}
+#js-choice-form{
+    width: 80%;
+}
+#js-screen-welcome, #js-screen-final{
+    background: url('https://media-cdn.tripadvisor.com/media/photo-s/04/98/48/af/ming-garden-chinese-restaurant.jpg') fixed;
+}
+@media(max-width:600px){
+    main, fieldset, button, img{
+        width: 100%;
+        margin: auto;
+    }
+    button{
+        margin-top: 12px;
+        font-size: 35px;
+    }
+    img{
+        width: 75%;
+    }
+    h1{
+        font-size: 28px;
+    }
+    footer{
+        height: 100px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+	
+	
