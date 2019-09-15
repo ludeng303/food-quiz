@@ -20,30 +20,34 @@
       <button type="button" id="js-btn-start">Start Quiz</button>
     </div>
 
-    <legend class="container" id="js-screen-quiz">
-        <form>
+    
+    <form>
+        <legend class="container" id="js-screen-quiz">
             <fieldset>
-              <label class='quiz-question'>Questions goes here</label>
-              <label class="answerOption">
-              <input type="radio" name="answer" required>
-              <span>choice A</span>
-              </label>
-              <label class="answerOption">
-              <input type="radio" name="answer" required>
-              <span>choice B</span>
-              </label>
-              <label class="answerOption">
-              <input type="radio" name="answer" required>
-              <span>choice C</span>
-              </label>
-              <label class="answerOption">
-              <input type="radio" name="answer" required>
-              <span>Choice D</span>
-              </label>
-              <button type="submit" class="submitButton">Submit</button>
-            </fieldset>
-          </form>
-    </legend> 
+                <label class='quiz-question'>Questions goes here</label>
+                <label class="answerOption">
+                <input type="radio" name="answer" required>
+                <span>choice A</span>
+                </label>
+                <label class="answerOption">
+                <input type="radio" name="answer" required>
+                <span>choice B</span>
+                </label>
+                <label class="answerOption">
+                <input type="radio" name="answer" required>
+                <span>choice C</span>
+                </label>
+                <label class="answerOption">
+                <input type="radio" name="answer" required>
+                <span>Choice D</span>
+                </label>
+                <button type="submit" class="submitButton">Submit</button>
+              </fieldset>
+            </legend>
+    </form>
+
+          
+ 
 
     <div class="container" id="js-screen-result">
       <h2>Right or Wrong</h2>
@@ -58,8 +62,10 @@
   </main>
        
   <footer id="js-footer-score">
-    <p>Question <span id="js-span-gameProgress">1</span> / 8</p>
-    <p>Scored <span id="js-span-score">0</span> Points</p>
+    <div>
+        <p>Question <span id="js-span-gameProgress">1</span> / 8</p>
+        <p>Scored <span id="js-span-score">0</span> Points</p>
+    </div>
   </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
