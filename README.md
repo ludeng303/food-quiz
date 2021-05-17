@@ -1,4 +1,4 @@
-Live link: https://ludeng303.github.io/food-quiz/
+Live link: https://xiaolu-ignite.github.io/food-quiz/
 
 					Complete an 8-question quiz, get feedback for your answers, and receive a final score.
 					This is an interactive app that leads user through 4 screens: 
